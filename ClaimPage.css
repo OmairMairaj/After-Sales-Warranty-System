@@ -1,0 +1,200 @@
+:root {
+  --dark: #016443;
+  --light: #38d39f;
+  --mid: #028358;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.banner-area {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)),
+    url(https://aclientfirst.files.wordpress.com/2018/03/sergey-zolkin-192937-unsplash.jpg);
+  background-position: center center;
+  background-position: bottom;
+  -webkit-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: 230px, 120px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  font-family: Poppins;
+  padding: 12px 0;
+  width: 100%;
+  text-align: center;
+  background-color: var(--dark);
+}
+
+.centered-right {
+  width: 50%;
+  padding-left: 8%;
+  padding-right: 10%;
+  position: absolute;
+  transform: translate(90%, -10%);
+  text-align: center;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.btnlogout {
+  position: absolute;
+  width: 100px;
+  top: 80px;
+  right: 10px;
+  border-radius: 25px;
+  outline: none;
+  border: none;
+  background-color: #016443;
+  font-weight: 100;
+  color: #fff;
+  font-size: 18px;
+  margin: 1rem 0;
+  cursor: pointer;
+  font-family: none;
+  text-align: center;
+  height: 30px;
+}
+
+.btnlogout:hover {
+  background-color: #028358;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 50px;
+  font-family: Poppins;
+  font-size: 40px;
+  color: #fff;
+}
+
+header {
+  padding: 10px 60px;
+}
+
+.search-form {
+  left: 12%;
+  position: absolute;
+  text-align: center;
+  margin-bottom: 30px;
+  border-radius: 25px;
+}
+
+.searchlabel {
+  color: white;
+}
+
+input,
+button {
+  color: black;
+  background-color: lightgrey;
+  font-size: 15px;
+  height: 30px;
+  border-radius: 25px;
+  width: 80%;
+  text-align: center;
+  font-family: none;
+}
+
+.input[type="search"] {
+  width: 70%;
+  background: lightgrey;
+  padding: 0 1rem;
+  border-color: black;
+  font-family: "Poppins";
+  position: relative;
+}
+
+button {
+  margin-left: 5px;
+  position: absolute;
+  width: 50px;
+  border-radius: 18px;
+  background-color: #016443;
+  border: solid 1px transparent;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+}
+button:hover {
+  background-color: #028358;
+}
+
+.desc-box {
+  background-color: lightgray;
+  text-align: left;
+  font-size: 50px;
+  border-radius: 25px;
+  height: 30px;
+  font-size: 15px;
+  width: 80%;
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-right: 20px;
+  text-align: left;
+}
+
+.FileButton {
+  margin-top: 20px;
+  position: absolute;
+  display: block;
+  width: 200px;
+  height: 36px;
+  border-radius: 18px;
+  background-color: #016443;
+  border: solid 1px transparent;
+  font-family: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+}
+
+.FileButton:hover{
+  background-color: #028358;
+}
+
+form {
+  /* position: absolute; */
+  border: lightyellow;
+  border-radius: 25px;
+  background: url(paper.gif);
+}
+
+.form-group {
+  margin-top: 10px;
+  color: lightgrey;
+}
+.form-group-id {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  color: lightgrey;
+}
+
+.form-control {
+  border-radius: 25px;
+  height: 30px;
+  font-size: 15px;
+  width: 80%;
+  text-align: center;
+}
